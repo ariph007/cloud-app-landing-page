@@ -20,10 +20,10 @@ const Hero = () => {
     rounded-xl text-center shadow-xl'>
         <p className='font-semibold text-slate-900'>Data Services</p>
         <div className='flex md:flex-row  justify-between flex-wrap px-4'>
-            <p className='flex px-4 py-2 text-slate-500'><CloudDownloadIcon className='h-6 text-indigo-600'/> App Security</p>
-            <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600'/> Dashboard Design</p>
-            <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-indigo-600'/> Cloud Data</p>
-            <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-indigo-600'/> API</p>
+            <p className='flex px-4 py-2 text-slate-500'><CloudDownloadIcon className='h-6 mr-2 text-indigo-600'/> App Security</p>
+            <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600 mr-2'/> Dashboard Design</p>
+            <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-indigo-600 mr-2'/> Cloud Data</p>
+            <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-indigo-600 mr-2'/> API</p>
         </div>
     </div>
       </div>
